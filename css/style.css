@@ -181,4 +181,82 @@ span.anio{
 }
 
 
+/* OUR FEATURES */
+
+#features {
+    padding-top: 90px;
+}
+
+#features h2 {
+    font-family: 'Rubik';
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ff8f00;
+    letter-spacing: 1px;
+}
+
+#features h3 {
+    font-weight: bold;
+    font-size: 38px;
+    margin: 0;
+}
+
+#features p {
+    color: #666;
+    line-height: 30px;
+}
+
+#features .contenedor {
+    display: flex;
+    justify-content: center;
+    max-width: 1100px;
+    padding-bottom: 40px;
+}
+
+#features .titular {
+    width: 40%;
+    margin-right: 77px;
+}
+
+#features .imagen {
+    width: 49%;
+}
+
+#features .imagen img {
+    width: 100%;
+}
+
+.contenedor-features-2 {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #cccccc6b;
+    padding-top: 40px;
+}
+
+.features-1, .features-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: 30%;
+    margin: auto;
+}
+
+.feature ul {
+    display: flex;
+    padding: 0;    
+}
+
+.feature li {
+    list-style: none;
+}
+
+.feature li:nth-child(2) {
+    margin-left: 20px;
+    color: #666;
+    font-size: 14px;
+    line-height: 30px;
+}
 
