@@ -70,6 +70,7 @@ header img{
 }
 
 .boton{
+    font-weight: bold;
     background: #253547;
     color: #ffffff;
     text-decoration: none;
@@ -129,7 +130,7 @@ span.anio{
     padding: 20px 30px;
 }
 
-#services h2{
+#services h2, #pricing h2{
     font-family: 'Rubik';
     font-weight: bold;
     font-size: 15px;
@@ -137,7 +138,7 @@ span.anio{
     letter-spacing: 2px;
 }
 
-#services h3{
+#services h3, #pricing h3{
     font-weight: 550;
     font-size: 30px;
 }
@@ -260,3 +261,121 @@ span.anio{
     line-height: 30px;
 }
 
+/* PRICING */
+#pricing {
+    padding-top: 90px;
+}
+
+#pricing h2, #pricing h3 {
+    text-align: center;
+    margin: 0;
+}
+
+#pricing h3 {
+    font-weight: bold;
+}
+
+.contenedor-precios {
+    display: flex;
+    justify-content: space-between;
+}
+
+#pricing .tabla {
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 0px 90px 160px 0px rgba(0, 0, 0, 0.1);
+    padding: 20px 59px;
+}
+
+#pricing ul {
+    padding: 0;
+}
+
+#pricing .tabla li:nth-child(1) {
+    font-family: 'Rubik';
+    color: #ff8f00;
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: -21px;
+}
+
+#pricing .tabla .dolar {
+    position: absolute;
+    color: #999;
+    font-size: 18px;
+}
+
+#pricing .tabla .numero {
+    font-family: 'Rubik';
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 14px;
+}
+
+#pricing .mes {
+    color: #999;
+}
+
+#pricing .tabla LI:nth-child(2) {
+    list-style: none;
+    margin-bottom: 48px;
+    margin-left: -21px;
+}
+
+#pricing .item {
+    color: #ff8f00;
+    margin-bottom: 27px;
+}
+
+#pricing #two .item {
+    color: #296FFA;
+}
+
+#pricing .item span {
+    color: #666;
+}
+
+#pricing #three .item {
+    color: #2ACF8D;
+}
+
+#pricing #one a {
+    color: #ff8f00;
+    background: rgba(255, 143, 0, 0.1);
+}
+
+#pricing #two li:nth-child(1) {
+    color: #296FFA;
+}
+
+#pricing #three li:nth-child(1) {
+    color: #2ACF8D;
+}
+
+#pricing #three a {
+    color: #2ACF8D;
+    background: rgba(41, 207, 141, 0.1);
+}
+
+#pricing #two a {
+    color: #fff;
+    background: #296FFA;
+}
+
+#pricing .hidden {
+    color: #ccc;
+}
+
+#pricing .tabla {
+    position: relative;
+}
+
+#pricing hr {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    border-color: #2423230D;
+}
