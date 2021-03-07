@@ -130,7 +130,7 @@ span.anio{
     padding: 20px 30px;
 }
 
-#services h2, #pricing h2{
+#services h2, #pricing h2, #file h2{
     font-family: 'Rubik';
     font-weight: bold;
     font-size: 15px;
@@ -378,4 +378,79 @@ span.anio{
     left: 0;
     width: 100%;
     border-color: #2423230D;
+}
+
+/* FILE MANAGEMENT */
+
+#file {
+    padding-top: 90px;
+}
+
+#file .contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+#file .iconos .icono {
+    margin-right: 15px;
+}
+
+#file .iconos h4, #file .iconos p {
+    margin: 0;
+}
+
+#file .iconos h4 {
+    font-weight: bold;
+}
+
+#file .iconos p {
+    margin-top: 10px;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+#file .item {
+    display: flex;
+}
+
+#file .titular {
+    width: 42%;
+    margin-right: 46px;
+}
+
+#file .imagen {
+    width: 40%;
+}
+
+#file .imagen img {
+    width: 100%;
+}
+
+#file .imagen .boton {
+    background: #296FFA;
+    padding: 15px 40px;
+    letter-spacing: 1px;
+    font-family: 'Rubik';
+}
+
+#file h3 {
+    font-size: 34px;
+    width: 78%;
+    margin: 0;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#file h2 {
+    margin: 0;
+}
+
+#file .iconos {
+    margin-top: 30px;
+}
+
+#file .icono {
+    margin-right: 15px;
 }
