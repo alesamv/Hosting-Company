@@ -675,4 +675,30 @@ span.anio{
     letter-spacing: 1px;
 }
 
+/* FOOTER */
 
+footer {
+    background: #161616;
+    color: #666;
+}
+
+footer .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1050px;
+}
+
+footer .copy {
+    font-size: 14px;
+    font-family: 'Open Sans';
+}
+
+footer .redes li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .redes i {
+    font-size: 27px;
+}
