@@ -600,6 +600,7 @@ span.anio{
 
 #satisfaction {
     padding-top: 90px;
+    padding-bottom: 156px;
 }
 
 #satisfaction h3 {
@@ -641,5 +642,37 @@ span.anio{
     margin: 0;
 }
 
+/* TREINTA */
+
+#treinta {
+    background-image: url(../img/30.png), linear-gradient(237deg, #46b3ff 0%, #0752fe 100%);
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 310px 0 155px 0;
+    text-align: center;
+}
+
+#treinta h2 {
+    font-size: 52px;
+    font-family: 'Rubik';
+    color: #fff;
+    text-shadow: 1px 2px 13px #61605d;
+    width: 50%;
+    margin: auto;
+}
+
+#treinta p {
+    color: #fff;
+    width: 58%;
+    margin: auto;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+#treinta .boton {
+    padding: 15px 50px;
+    letter-spacing: 1px;
+}
 
 
