@@ -247,7 +247,7 @@ span.anio{
 
 .feature ul {
     display: flex;
-    padding: 0;    
+    padding: 0;
 }
 
 .feature li {
@@ -566,7 +566,7 @@ span.anio{
     padding-top: 90px;
 }
 
-.contenedor-testimonials {
+.contenedor-testimonial {
     display: flex;
     justify-content: space-around;
     margin-top: 70px;
@@ -575,9 +575,9 @@ span.anio{
 .testimonial {
     width: 24%;
     text-align: center;
-    background-image: url(img/testimonial-back.png);
+    background-image: url(../img/testimonial-back.png);
     background-repeat: no-repeat;
-    background-position: bottom-center;
+    background-position: bottom center;
     background-color: #fff;
     box-shadow: 0px 90px 160px 0px rgba(0, 0, 0, 0.1);
     border-radius: 24px;
@@ -590,11 +590,56 @@ span.anio{
     color: #666;
     line-height: 28px;
     font-weight: 100;
-  }
+}
 
-  .testimonial .nombre {
-      font-weight: bold;
-  }
+.testimonial .nombre {
+    font-weight: bold;
+}
+
+  /* SATISFACTION */
+
+#satisfaction {
+    padding-top: 90px;
+}
+
+#satisfaction h3 {
+    font-weight: bold;
+    font-size: 38px;
+    text-emphasis: center;
+}
+
+#satisfaction .contenedor-tarjetas {
+    display: flex;
+    justify-content: center;
+}
+
+#satisfaction .tarjeta {
+    background-image: url(../img/tarjeta1.png), linear-gradient(237deg, #46B3FF 0%, #0752FE 100%);
+    background-position: bottom left;
+    background-size: cover;
+    border-radius: 24px;
+    width: 40%;
+    margin: 0 35px;
+    padding: 27px 40px 26px 33px;
+}
+
+#satisfaction .tarjeta-dos {
+    background-image: url(../img/tarjeta2.png), linear-gradient(150deg, #ffba61 0%, #ffdc71 100%);
+}
+
+#satisfaction h4 {
+    font-family: 'Rubik';
+    font-size: 26px;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 14px;
+}
+
+#satisfaction p {
+    color: #fff;
+    line-height: 34px;
+    margin: 0;
+}
 
 
 
