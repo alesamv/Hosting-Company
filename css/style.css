@@ -130,7 +130,7 @@ span.anio{
     padding: 20px 30px;
 }
 
-#services h2, #pricing h2, #file h2{
+#services h2, #pricing h2, #file h2, #easy h2, #testimonials h2{
     font-family: 'Rubik';
     font-weight: bold;
     font-size: 15px;
@@ -138,7 +138,7 @@ span.anio{
     letter-spacing: 2px;
 }
 
-#services h3, #pricing h3{
+#services h3, #pricing h3, #easy h3, #testimonials h3{
     font-weight: 550;
     font-size: 30px;
 }
@@ -486,3 +486,115 @@ span.anio{
     padding: 15px 50px;
     letter-spacing: 1px;
 }
+
+/* EASY */
+
+#easy {
+    padding-top: 90px;
+}
+
+#easy .contenedor {
+    display: flex;
+}
+
+#easy .titular, #easy .imagen {
+    width: 40%;
+}
+
+#easy .imagen img {
+    width: 100%;
+}
+
+#easy .imagen {
+    margin-right: 72px;
+}
+
+#easy h2, #easy h3 {
+    margin: 0;
+    font-weight: bold;
+}
+
+#easy p {
+    color: #666;
+    line-height: 30px;
+}
+
+#easy ul {
+    display: flex;
+    padding: 0;
+    margin-bottom: 37px;
+}
+
+#easy ul li {
+    list-style: none;
+}
+
+#easy i {
+    background: #ff8f00;
+    color: #fff;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+
+#easy ul li:nth-child(1) {
+    margin-right: 20px;
+}
+
+#easy .boton {
+    background: #2870FA;
+    padding: 15px 40px;
+    letter-spacing: 1px;
+    margin-top: 0px;
+}
+
+#easy ul {
+    margin-left: 30px;
+}
+
+/* TESTIMONIALS */
+
+#testimonials h2, #testimonials h3 {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+#testimonials {
+    padding-top: 90px;
+}
+
+.contenedor-testimonials {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.testimonial {
+    width: 24%;
+    text-align: center;
+    background-image: url(img/testimonial-back.png);
+    background-repeat: no-repeat;
+    background-position: bottom-center;
+    background-color: #fff;
+    box-shadow: 0px 90px 160px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    padding: 0 32px;
+    font-family: 'Open Sans';
+}
+
+.testimonial p {
+    font-size: 14px;
+    color: #666;
+    line-height: 28px;
+    font-weight: 100;
+  }
+
+  .testimonial .nombre {
+      font-weight: bold;
+  }
+
+
+
