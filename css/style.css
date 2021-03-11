@@ -31,6 +31,7 @@ header{
 header .logo {
     font-size: 23px;
     font-weight: bold;
+    color: #000;
 }
 
 nav ul li {
@@ -41,6 +42,7 @@ nav ul li {
 nav ul li a{
     text-decoration: none;
     color: black;
+    font-weight: bold;
 }
 
 header .contenedor-inicio{
@@ -65,7 +67,7 @@ header p{
     line-height: 30px;
 }
 
-header img{
+header .imagen img{
     width: 100%;
 }
 
@@ -108,7 +110,7 @@ span.anio{
     font-weight: bold;
 }
 
-/*Section Services*/
+/* SERVICES */
 #services{
     padding-top: 120px;
 }
