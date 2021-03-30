@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet">
     <title>Hosting Company - Landing Page</title>
 </head>
 
@@ -15,14 +17,15 @@
         <div class="menu">
             <div class="contenedor">
                 <p class="logo">Hosting Company</p>
+                <img src="img/menu.png" class="menu-icon" alt="">
                 <nav>
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Services</a></li>
-                        <li><a href="">Features</a></li>
-                        <li><a href="">Pricing</a></li>
-                        <li><a href="">File Managment</a></li>
-                        <li><a href="">Testimonials</a></li> 
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#file">File Managment</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li> 
                     </ul> 
                 </nav>
             </div>
@@ -60,7 +63,7 @@
                     <h3>Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit amet, consect adipiscing amet sit dolor</h3>
                     <a href="" class="boton">ALL SERVICES</a>
                 </div>
-                <div class="service" id="uno">
+                <div class="service" id="service-uno" style="margin-left:190px;">
                     <img src="img/safe.png" alt="">
                     <h4>Safe & Secure</h4>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error mollitia, molestiae tenetur fuga reprehenderit ut, facere fugiat aliquid modi, est dolor aliquam molestias unde beatae quos. Libero asperiores ad nulla.</p>
@@ -81,7 +84,7 @@
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error mollitia, molestiae tenetur fuga reprehenderit ut, facere fugiat aliquid modi, est dolor aliquam molestias unde beatae quos. Libero asperiores ad nulla.</p>
                     <a href="">CLICK HERE</a>
                 </div>
-                <div class="service">
+                <div class="service" id="service-cuatro">
                     <img src="img/support.png" alt="">
                     <h4>Dedicated Support</h4>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error mollitia, molestiae tenetur fuga reprehenderit ut, facere fugiat aliquid modi, est dolor aliquam molestias unde beatae quos. Libero asperiores ad nulla.</p>
@@ -292,7 +295,7 @@
             <div class="contenedor">
                 <h2>WHAT THEY’RE SAYING</h2>
                 <h3>Customer Testimonials</h3>
-                <div class="contenedor-testimonial">
+                <div class="contenedor-testimonials">
 
                     <div class="testimonial">
                         <img src="img/testimonial.png" alt="">
@@ -347,7 +350,7 @@
 
         <footer>
             <div class="contenedor">
-                <div class="copy"><p>Designed by Elegant Themes | Powered by WordPress</p></div>
+                <div class="copy"><p>Designed by Elegant Themes | Copy for Educational Purposes by Alesa</p></div>
                 <div class="redes">
                     <ul>
                         <li><i class="fab fa-facebook-f"></i></li>
@@ -359,7 +362,7 @@
             </div>
         </footer>
 
-        <div class="popup">
+        <div class="popup" style="display: none;">
             <p>SUBSCRIBE FOR 10% OFF</p>
             <form action="">
                 <input type="text" placeholder="e-mail">
